@@ -17,12 +17,12 @@ VLAN :
 กำหนด VLAN 851-852 สำหรับ Switch 2 (Management)
 VLAN Trunks ในการกำหนด VLAN แต่ละพอร์ตใน Switch
 IP Subnet :
- VLAN 801 = 10.80.1.1/24
- VLAN 802 = 10.80.2.1/24
- VLAN 803 = 10.80.3.1/24
- VLAN 804 = 10.80.4.1/24
- VLAN 851 = 10.85.1.1/24
- VLAN 852 = 10.85.2.1/24
+VLAN 801 = 10.80.1.1/24
+VLAN 802 = 10.80.2.1/24
+VLAN 803 = 10.80.3.1/24
+VLAN 804 = 10.80.4.1/24
+VLAN 851 = 10.85.1.1/24
+VLAN 852 = 10.85.2.1/24
 (ใช้ DHCP ในการกำหนด IP)
 
 NAT : Network Address Translation
