@@ -12,7 +12,22 @@
 การเข้าสายLANจะเริ่มจากการมาปอกJacketออกประมาณ 1 นิ้วจากนั้นทำการคลายเกลียวและเรียงสายไฟสำหรับการเชื่อมต่อที่ต้องการ เมื่อเรียงและดัดสายไฟให้ตรงแล้วให้ดันสายไฟเข้าไปในหัวแลน(RJ45)ให้สุดจนเห็นทองเเดงจากนั้นใช้ด้ามคีมบีบหัวเเลนให้สุด
 
 ####  เทคนิค configure อุปกรณ์ 
-- Friewall fortigate 60e
+VLAN :
+กำหนด VLAN 801-804 สำหรับ Switch 1 (Services)
+กำหนด VLAN 851-852 สำหรับ Switch 2 (Management)
+VLAN Trunks ในการกำหนด VLAN แต่ละพอร์ตใน Switch
+IP Subnet :
+ VLAN 801 = 10.80.1.1/24
+ VLAN 802 = 10.80.2.1/24
+ VLAN 803 = 10.80.3.1/24
+ VLAN 804 = 10.80.4.1/24
+ VLAN 851 = 10.85.1.1/24
+ VLAN 852 = 10.85.2.1/24
+(ใช้ DHCP ในการกำหนด IP)
+
+NAT : Network Address Translation
+
+- Firewall fortigate 60e
 
 ![Logo](https://www.tbpgroup.com/wp-content/uploads/2018/05/fortigate-60e-500x400.png)
 
@@ -23,3 +38,4 @@
 - Server dell r330
 
 ![Logo](https://media.xbyte.com/cdn-cgi/image/width=500,height=320,format=auto,fit=scale-down/servers/Dell-PowerEdge-R330-Server_01.png)
+
