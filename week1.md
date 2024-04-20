@@ -38,10 +38,17 @@ NAT : Network Address Translation
 
 ![Logo](https://www.tbpgroup.com/wp-content/uploads/2018/05/fortigate-60e-500x400.png)
 
+* [datasheet](https://www.firewalls.com/pub/media/wysiwyg/datasheets/Fortinet/FG-FW-60E.pdf)
+* [FortiOS](https://docs.fortinet.com/product/fortigate/hardware)
+
 #### Switch fortiswitch 424d
   
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRK8DUjqK0NHeot6dOj2PprkFROuugANzQ2SENCfRYWOMQENSyrMqPOEm7T1Kk2nGONQ&usqp=CAU)
 
+* [Specification](https://www.avfirewalls.com.au/FortiSwitch-424D.asp)
+
 #### Server dell r330
 
 ![Logo](https://media.xbyte.com/cdn-cgi/image/width=500,height=320,format=auto,fit=scale-down/servers/Dell-PowerEdge-R330-Server_01.png)
+
+* [datasheet](https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/aa/Dell_PowerEdge_R330_SpecSheet_final.pdf)
